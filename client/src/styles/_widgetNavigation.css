@@ -19,9 +19,10 @@ main article {
 /* Enlaces del NAV */
 /* ------------------------- */
 .menu {
-	background: #232F3E;
-	padding: 5px 0;
-	margin-bottom: 20px;
+	background: #ffffff;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 2px #b5b5b58f;
 }
 
 .menu .contenedor-botones-menu {
@@ -32,7 +33,7 @@ main article {
 
 .menu .contenedor-botones-menu button {
 	font-size: 20px;
-	color: #fff;
+	color: #000;
 	padding: 10px 20px;
 	border: 1px solid transparent;
 	display: inline-block;
@@ -59,7 +60,7 @@ main article {
 }
 
 .menu .btn-departamentos {
-	color: #fff;
+	color: #000;
 	padding: 7px;
 	border-radius: 3px;
 	display: flex;
@@ -67,6 +68,7 @@ main article {
 	border: 1px solid transparent;
 	font-size: 12px;
 	cursor: default;
+	align-items: center;
 }
 
 .menu .btn-departamentos i {
@@ -76,7 +78,7 @@ main article {
 }
 
 .menu .btn-departamentos:hover {
-	border: 1px solid rgba(255,255,255, .4);
+	border: 1px solid rgba(0,0,0, .4);
 }
 
 .menu .btn-departamentos span {
@@ -86,7 +88,7 @@ main article {
 }
 
 .menu .contenedor-enlaces-nav .enlaces a {
-	color: #ccc;
+	color: #000;
 	border: 1px solid transparent;
 	padding: 7px;
 	border-radius: 3px;
@@ -94,7 +96,7 @@ main article {
 }
 
 .menu .contenedor-enlaces-nav .enlaces a:hover {
-	border: 1px solid rgba(255,255,255,.4);
+	border: 1px solid rgba(0,0,0,.4);
 }
 
 /* ------------------------- */
@@ -284,12 +286,13 @@ main article {
 		justify-content: flex-start;
 		position: fixed;
 		left: 0;
-		background: #232F3F;
+		background: #fff;
+		box-shadow: 3px 5px 2px #6e6e6e52;
 		height: 100vh;
 		width: 80%;
 		z-index: 2000;
 		transition: .3s ease all;
-		transform: translate(-100%);
+		transform: translate(-120%);
 	}
 
 	.menu .contenedor-enlaces-nav.activo {

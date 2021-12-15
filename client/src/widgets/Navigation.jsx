@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./../styles/_widgetNavigation.css";
+import "../styles/_widgetNavigation.css";
 
 
 const Navigation = () => {
