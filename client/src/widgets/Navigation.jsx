@@ -118,44 +118,44 @@ btnCerrarMenu.addEventListener('click', (e)=> {
               <button className="btn-regresar"><i className="fas fa-arrow-left" /> Regresar</button>
               <h3 className="subtitulo">Categorias</h3>
               <a href="#" data-categoria="tecnologia-y-computadoras">
-                Tecnología y Computadoras <i className="fas fa-angle-right" />
+                Suéteres <i className="fas fa-angle-right" />
               </a>
 
               <a href="#" data-categoria="libros">
-                Libros <i className="fas fa-angle-right" />
+                Joggers <i className="fas fa-angle-right" />
               </a>
 
               <a href="#" data-categoria="ropa-y-accesorios">
-                Ropa y Accesorios <i className="fas fa-angle-right" />
+                Shorts <i className="fas fa-angle-right" />
               </a>
 
               <a href="#" data-categoria="hogar-y-cocina">
-                Hogar y Cocina <i className="fas fa-angle-right" />
+                Crop Tops <i className="fas fa-angle-right" />
               </a>
               
               <a href="#" data-categoria="juegos-y-juguetes">
-                Juegos y Juguetes <i className="fas fa-angle-right" />
+                Conjuntos <i className="fas fa-angle-right" />
               </a>
               
               <a href="#" data-categoria="salud-y-belleza">
-                Salud y Belleza <i className="fas fa-angle-right" />
+                Franelas <i className="fas fa-angle-right" />
               </a>
               
               <a href="#" data-categoria="alimentos-y-bebidas">
-                Alimentos y Bebidas <i className="fas fa-angle-right" />
+                Gorras <i className="fas fa-angle-right" />
               </a>
-              
+
             </div>
             <div className="contenedor-subcategorias">
               <div className="subcategoria " data-categoria="tecnologia-y-computadoras">
                 <div className="enlaces-subcategoria">
                   <button className="btn-regresar"><i className="fas fa-arrow-left" />Regresar</button>
-                  <h3 className="subtitulo">Tecnología y Computadoras</h3>
-                  <a href="#">Laptops</a>
-                  <a href="#">Tablets</a>
-                  <a href="#">Computadoras de Escritorio</a>
-                  <a href="#">Monitores</a>
-                  <a href="#">Componentes</a>
+                  <h3 className="subtitulo">Suéteres</h3>
+
+                  <a href="#">Hombres</a>
+                  <a href="#">Damas</a>
+                  <a href="#">Niños</a>
+                  
                 </div>
                 <div className="banner-subcategoria">
                   <a href="#">
@@ -180,17 +180,23 @@ btnCerrarMenu.addEventListener('click', (e)=> {
               <div className="subcategoria" data-categoria="libros">
                 <div className="enlaces-subcategoria">
                   <button className="btn-regresar"><i className="fas fa-arrow-left" />Regresar</button>
-                  <h3 className="subtitulo">Libros</h3>
+                  
+                  <h3 className="subtitulo">
+                    Joggers
+                  </h3>
+
                   <a href="#">Top Sellers</a>
-                  <a href="#">Ciencia Ficcion</a>
-                  <a href="#">Fantasia</a>
-                  <a href="#">Miedo</a>
+                  <a href="#">...</a>
+                  <a href="#">...</a>
+                  <a href="#">...</a>
                 </div>
+
                 <div className="banner-subcategoria">
                   <a href="#">
                     <img src="/img/libros-banner-1.png" alt="" />
                   </a>
                 </div>
+
                 <div className="galeria-subcategoria">
                   <a href="#">
                     <img src="/img/libros-galeria-1.png" alt="" />
@@ -206,10 +212,15 @@ btnCerrarMenu.addEventListener('click', (e)=> {
                   </a>
                 </div>
               </div>
+              
               <div className="subcategoria" data-categoria="ropa-y-accesorios">
                 <div className="enlaces-subcategoria">
                   <button className="btn-regresar"><i className="fas fa-arrow-left" />Regresar</button>
-                  <h3 className="subtitulo">Ropa y Accesorios</h3>
+                  
+                  <h3 className="subtitulo">
+                    Shorts
+                  </h3>
+
                   <a href="#">Ropa</a>
                   <a href="#">Zapatos</a>
                   <a href="#">Accesorios</a>
@@ -238,15 +249,11 @@ btnCerrarMenu.addEventListener('click', (e)=> {
               <div className="subcategoria" data-categoria="hogar-y-cocina">
                 <div className="enlaces-subcategoria">
                   <button className="btn-regresar"><i className="fas fa-arrow-left" />Regresar</button>
-                  <h3 className="subtitulo">Hogar y Cocina</h3>
-                  <a href="#">Cocina</a>
-                  <a href="#">Electrodomesticos</a>
-                  <a href="#">Limpieza</a>
-                  <a href="#">Baño</a>
-                  <a href="#">Decoracion</a>
-                  <a href="#">Arte</a>
-                  <a href="#">Manualidades</a>
-                  <a href="#">Jardin</a>
+                  <h3 className="subtitulo">Crop Tops</h3>
+                  <a href="#">...</a>
+                  <a href="#">...</a>
+                  <a href="#">...</a>
+                  
                 </div>
                 <div className="banner-subcategoria">
                   <a href="#">
@@ -271,11 +278,10 @@ btnCerrarMenu.addEventListener('click', (e)=> {
               <div className="subcategoria" data-categoria="juegos-y-juguetes">
                 <div className="enlaces-subcategoria">
                   <button className="btn-regresar"><i className="fas fa-arrow-left" />Regresar</button>
-                  <h3 className="subtitulo">Juegos y Juguetes</h3>
-                  <a href="#">Juguetes</a>
-                  <a href="#">Juegos de Mesa</a>
-                  <a href="#">Aire Libre</a>
-                  <a href="#">Muñecas</a>
+                  <h3 className="subtitulo">Conjuntos</h3>
+                  <a href="#">Hombres</a>
+                  <a href="#">Mujeres</a>
+                  <a href="#">Niños</a>
                 </div>
                 <div className="banner-subcategoria">
                   <a href="#">
@@ -300,11 +306,10 @@ btnCerrarMenu.addEventListener('click', (e)=> {
               <div className="subcategoria" data-categoria="salud-y-belleza">
                 <div className="enlaces-subcategoria">
                   <button className="btn-regresar"><i className="fas fa-arrow-left" />Regresar</button>
-                  <h3 className="subtitulo">Salud y Belleza</h3>
-                  <a href="#">Cuidado de la Piel</a>
-                  <a href="#">Maquillaje</a>
-                  <a href="#">Lociones</a>
-                  <a href="#">Shampoo</a>
+                  <h3 className="subtitulo">Franelas</h3>
+                  <a href="#">Hombres</a>
+                  <a href="#">Mujeres</a>
+                  <a href="#">Niños</a>
                 </div>
                 <div className="banner-subcategoria">
                   <a href="#">
@@ -329,9 +334,9 @@ btnCerrarMenu.addEventListener('click', (e)=> {
               <div className="subcategoria" data-categoria="alimentos-y-bebidas">
                 <div className="enlaces-subcategoria">
                   <button className="btn-regresar"><i className="fas fa-arrow-left" />Regresar</button>
-                  <h3 className="subtitulo">Alimentos y Bebidas</h3>
-                  <a href="#">Alimentos</a>
-                  <a href="#">Bebidas</a>
+                  <h3 className="subtitulo">Gorras</h3>
+                  <a href="#">Planas</a>
+                  <a href="#">...</a>
                 </div>
                 <div className="banner-subcategoria">
                   <a href="#">
