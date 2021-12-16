@@ -117,13 +117,34 @@ btnCerrarMenu.addEventListener('click', (e)=> {
             <div className="categorias">
               <button className="btn-regresar"><i className="fas fa-arrow-left" /> Regresar</button>
               <h3 className="subtitulo">Categorias</h3>
-              <a href="#" data-categoria="tecnologia-y-computadoras">Tecnología y Computadoras <i className="fas fa-angle-right" /></a>
-              <a href="#" data-categoria="libros">Libros <i className="fas fa-angle-right" /></a>
-              <a href="#" data-categoria="ropa-y-accesorios">Ropa y Accesorios <i className="fas fa-angle-right" /></a>
-              <a href="#" data-categoria="hogar-y-cocina">Hogar y Cocina <i className="fas fa-angle-right" /></a>
-              <a href="#" data-categoria="juegos-y-juguetes">Juegos y Juguetes <i className="fas fa-angle-right" /></a>
-              <a href="#" data-categoria="salud-y-belleza">Salud y Belleza <i className="fas fa-angle-right" /></a>
-              <a href="#" data-categoria="alimentos-y-bebidas">Alimentos y Bebidas <i className="fas fa-angle-right" /></a>
+              <a href="#" data-categoria="tecnologia-y-computadoras">
+                Tecnología y Computadoras <i className="fas fa-angle-right" />
+              </a>
+
+              <a href="#" data-categoria="libros">
+                Libros <i className="fas fa-angle-right" />
+              </a>
+
+              <a href="#" data-categoria="ropa-y-accesorios">
+                Ropa y Accesorios <i className="fas fa-angle-right" />
+              </a>
+
+              <a href="#" data-categoria="hogar-y-cocina">
+                Hogar y Cocina <i className="fas fa-angle-right" />
+              </a>
+              
+              <a href="#" data-categoria="juegos-y-juguetes">
+                Juegos y Juguetes <i className="fas fa-angle-right" />
+              </a>
+              
+              <a href="#" data-categoria="salud-y-belleza">
+                Salud y Belleza <i className="fas fa-angle-right" />
+              </a>
+              
+              <a href="#" data-categoria="alimentos-y-bebidas">
+                Alimentos y Bebidas <i className="fas fa-angle-right" />
+              </a>
+              
             </div>
             <div className="contenedor-subcategorias">
               <div className="subcategoria " data-categoria="tecnologia-y-computadoras">
