@@ -20,9 +20,13 @@ main article {
 /* ------------------------- */
 .menu {
 	background: #ffffff;
+    position: fixed;
     padding: 5px 0;
     margin-bottom: 20px;
     box-shadow: 2px 3px 2px #b5b5b58f;
+    width: 100%;
+    top: 0;
+	z-index: 999;
 }
 
 .menu .contenedor-botones-menu {

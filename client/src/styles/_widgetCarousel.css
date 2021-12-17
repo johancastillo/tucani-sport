@@ -1,0 +1,21 @@
+.carousel-component{
+    margin: 10px 0;
+    padding: 10px 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-component div{
+    margin: 10px;
+    margin-left: 0 !important;
+}
+

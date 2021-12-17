@@ -2,6 +2,7 @@ import { Router, Route, Switch } from 'wouter';
 import Home from './pages/Home';
 import Aboutus from './pages/AboutUs';
 import Navigation from './widgets/Navigation';
+import Footer from './widgets/Footer';
 
 function AppRouting() {
   return (
@@ -17,6 +18,8 @@ function AppRouting() {
         <Route path="/login" component={Aboutus} />
         <Route path="/register" component={Aboutus} />
       </Switch>
+
+      <Footer />
     </Router>
 
     /*
