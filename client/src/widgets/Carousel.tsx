@@ -4,10 +4,19 @@ import "../styles/_widgetCarousel.css";
 
 export default function Carousel() {
 
-    const moveSlider = (move:any) => {
-        const carousel = document.getElementById("carousel-component");
+    const moveSlider = (event:any, move:any) => {
         const cardCarousel:any = document.getElementById("card-carousel")
         let sizeSlide:any = cardCarousel?.offsetWidth + 10
+
+
+        let arrowButton = event.target as HTMLElement
+        let arrowControls = arrowButton?.parentNode
+        let carouselHeader = arrowControls?.parentNode
+        let boxCarousel = carouselHeader?.parentNode
+
+        let carousel = boxCarousel?.querySelector(".carousel-component")
+
+        console.log()
 
         if(move === "left"){
             sizeSlide =- sizeSlide
@@ -25,17 +34,17 @@ export default function Carousel() {
                 <h4>Más vendidos</h4>
 
                 <div className="controls">
-                    <button onClick={() => moveSlider("left")} className="btn">
+                    <button onClick={(e) => moveSlider(e, "left")} className="btn button-left">
                         <img src="/icons/chevron-left.svg" alt="" width="34px" />
                     </button>
 
-                    <button onClick={() => moveSlider("right")} className="btn">
+                    <button onClick={(e) => moveSlider(e, "right")} className="btn button-right">
                         <img src="/icons/chevron-right.svg" alt="" width="34px" />
                     </button>
                 </div>
             </div>
 
-            <div className="carousel-component" id="carousel-component">
+            <div className="carousel-component">
                 <Card image="/img/products/01.png" />
                 <Card image="/img/products/01.png" />
                 <Card image="/img/products/01.png" />

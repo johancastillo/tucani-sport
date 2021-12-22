@@ -1,0 +1,9 @@
+{
+    "products": [
+        {"title": "One", "price": 20},
+        {"title": "Two", "price": 20},
+    ],
+    "users": [
+        {"username": "jcjohan"}
+    ]
+}

@@ -19,3 +19,6 @@
     margin-left: 0 !important;
 }
 
+.button-left img, .button-right img{
+    pointer-events: none;
+}

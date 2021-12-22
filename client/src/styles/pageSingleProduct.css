@@ -1,5 +1,29 @@
-.scroll-vertical{
-    overflow: scroll;
-    white-space: pre-line;
-    height: 577px;
+.sidebar-images img{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar-images img:hover{
+    filter: grayscale(1);
+}
+
+.sizes{
+    display: flex;
+}
+
+.sizes .size-box{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sizes .size-box:hover{
+    background-color: #000;
+    color: #fff;
 }
