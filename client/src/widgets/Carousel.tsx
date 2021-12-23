@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Card from '../components/Card';
 import "../styles/_widgetCarousel.css";
 
-export default function Carousel() {
+export default function Carousel({title, data, category}:any) {
 
     const moveSlider = (event:any, move:any) => {
         const cardCarousel:any = document.getElementById("card-carousel")
@@ -31,7 +31,7 @@ export default function Carousel() {
         <div className="my-4">
 
             <div className="carousel-header">
-                <h4>Más vendidos</h4>
+                <h4>{title}</h4>
 
                 <div className="controls">
                     <button onClick={(e) => moveSlider(e, "left")} className="btn button-left">
@@ -46,9 +46,9 @@ export default function Carousel() {
 
             <div className="carousel-component">
                 <Card image="/img/products/01.png" />
-                <Card image="/img/products/01.png" />
-                <Card image="/img/products/01.png" />
-                <Card image="/img/products/01.png" />
+                <Card image="/img/products/02.png" />
+                <Card image="/img/products/03.png" />
+                <Card image="/img/products/04.png" />
                 <Card image="/img/products/01.png" />
                 <Card image="/img/products/01.png" />
                 <Card image="/img/products/01.png" />

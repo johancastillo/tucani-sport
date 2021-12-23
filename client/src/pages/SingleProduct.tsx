@@ -1,13 +1,15 @@
 import { useState, useEffect } from "react";
 import BreadCrumbs from "../components/BreadCrumbs";
 import "../styles/pageSingleProduct.css";
+import Carousel from "../widgets/Carousel";
 
 export default function SingleProduct({ params }: any) {
-  useEffect(() => {}, []);
+  useEffect(() => {
+    window.scroll(0,0)
+  }, []);
 
   return (
     <div className="container page mb-4">
-      
       <BreadCrumbs />
 
       <div className="row">
@@ -37,44 +39,37 @@ export default function SingleProduct({ params }: any) {
           <h6 className="text-uppercase mt-4">Descripción</h6>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi similique saepe doloremque inventore alias ea autem earum debitis! Deserunt ipsa blanditiis distinctio sunt nesciunt, a consequuntur ratione facilis sed?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi
+            similique saepe doloremque inventore alias ea autem earum debitis!
+            Deserunt ipsa blanditiis distinctio sunt nesciunt, a consequuntur
+            ratione facilis sed?
           </p>
 
           <h6 className="text-uppercase">Detalles</h6>
 
           <ul>
-              <li>100 % algodón</li>
-              <li>Lavar en lavadora en frío</li>
-              <li>Secar en secadora a baja temperatura</li>
+            <li>100 % algodón</li>
+            <li>Lavar en lavadora en frío</li>
+            <li>Secar en secadora a baja temperatura</li>
           </ul>
 
           <h6 className="text-uppercase">Tallas</h6>
 
-            <div className="sizes">
-                <div className="size-box">
-                    S
-                </div>
+          <div className="sizes">
+            <div className="size-box">S</div>
 
-                <div className="size-box">
-                    M
-                </div>
+            <div className="size-box">M</div>
 
-                <div className="size-box">
-                    L
-                </div>
+            <div className="size-box">L</div>
 
-                <div className="size-box">
-                    XL
-                </div>
-
-
-
-            </div>
-
-            
-
+            <div className="size-box">XL</div>
+          </div>
         </div>
       </div>
+
+      <Carousel title="Recomendados para ti" />
+      <Carousel title="Más vendidos" />
+
     </div>
   );
 }
